@@ -1,4 +1,5 @@
 {% extends 'base.html' %} {% block content %}
+{% load static %}
   <section id="showcase">
     <div class="container text-center">
       <div class="home-search p-5">
@@ -130,7 +131,7 @@
         <!-- Listing 1 -->
         <div class="col-md-6 col-lg-4 mb-4">
           <div class="card listing-preview">
-            <img class="card-img-top" src="assets/img/homes/home-1.jpg" alt="">
+            <img class="card-img-top" src="{% static 'img/homes/home-1.jpg' %}" alt="">
             <div class="card-img-overlay">
               <h2>
                 <span class="badge badge-secondary text-white">$490,000</span>
@@ -173,7 +174,7 @@
         <!-- Listing 2 -->
         <div class="col-md-6 col-lg-4 mb-4">
           <div class="card listing-preview">
-            <img class="card-img-top" src="assets/img/homes/home-2.jpg" alt="">
+            <img class="card-img-top" src="{% static 'img/homes/home-2.jpg' %}" alt="">
             <div class="card-img-overlay">
               <h2>
                 <span class="badge badge-secondary text-white">$550,000</span>
@@ -216,7 +217,7 @@
         <!-- Listing 3 -->
         <div class="col-md-6 col-lg-4 mb-4">
           <div class="card listing-preview">
-            <img class="card-img-top" src="assets/img/homes/home-3.jpg" alt="">
+            <img class="card-img-top" src="{% static 'img/homes/home-3.jpg' %}" alt="">
             <div class="card-img-overlay">
               <h2>
                 <span class="badge badge-secondary text-white">$580,000</span>
